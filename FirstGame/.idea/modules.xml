@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../AndEngine-GLES2/AndEngine-GLES2.iml" filepath="$PROJECT_DIR$/../AndEngine-GLES2/AndEngine-GLES2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../AndEnginePhysicsBox2DExtension-GLES2/AndEnginePhysicsBox2DExtension-GLES2.iml" filepath="$PROJECT_DIR$/../AndEnginePhysicsBox2DExtension-GLES2/AndEnginePhysicsBox2DExtension-GLES2.iml" />
       <module fileurl="file://$PROJECT_DIR$/FirstGame.iml" filepath="$PROJECT_DIR$/FirstGame.iml" />
     </modules>
   </component>
