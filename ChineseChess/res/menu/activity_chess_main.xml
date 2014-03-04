@@ -1,0 +1,7 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/menu_sound"
+        android:title="@string/menu_sound"
+        android:orderInCategory="100" android:checkable="true" android:enabled="true" android:checked="true" android:icon="@drawable/music"/>
+    <item android:id="@+id/menu_brightness" android:orderInCategory="101" android:title="@string/menu_day_mode" android:icon="@drawable/sun" android:checkable="true" android:checked="true" android:enabled="true"></item><item android:id="@+id/menu_quit" android:orderInCategory="102" android:title="@string/quit" android:icon="@drawable/exit" android:enabled="true"></item>
+    
+</menu>

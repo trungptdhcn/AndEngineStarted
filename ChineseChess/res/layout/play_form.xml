@@ -1,0 +1,152 @@
+<com.thor.chess.ChessLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentTop="true"
+    android:layout_gravity="top"
+    android1:layout_margin="0pt"
+    android:gravity="top"
+    android:orientation="vertical"
+    android1:background="@drawable/face" >
+
+    <ImageView
+        android1:id="@+id/ImageView2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="0dp"
+        android1:layout_alignParentLeft="true"
+        android1:layout_alignParentTop="true"
+        android:cropToPadding="true"
+        android:focusable="false"
+        android:paddingBottom="11dp"
+        android:paddingTop="11dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/chess_tiitle"
+        android1:contentDescription="@string/empty" />
+
+    <RelativeLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android1:id="@+id/RelativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android1:layout_alignParentLeft="true"
+        android1:layout_below="@+id/ImageView2"
+        android:background="@drawable/linepng"
+        android:gravity="top"
+        android:paddingBottom="3dp"
+        android:paddingTop="3dp" >
+
+        <com.thor.chess.ChessView
+            android:id="@+id/chess_board"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:android1="http://schemas.android.com/apk/res/android"
+        android1:id="@+id/RelativeLayout01"
+        android1:layout_width="match_parent"
+        android1:layout_height="wrap_content"
+        android1:layout_alignParentBottom="true"
+        android1:layout_alignParentLeft="true"
+        android1:layout_alignParentRight="true"
+        android1:layout_below="@+id/RelativeLayout1"
+        android1:layout_margin="0pt"
+        android1:background="#b0c0c0c0"
+        android1:orientation="horizontal"
+        android1:padding="5dp" >
+
+        <LinearLayout
+            android1:id="@+id/btn_grid"
+            android1:layout_width="wrap_content"
+            android1:layout_height="wrap_content" >
+
+            <Button
+                android1:id="@+id/btn_again"
+                style="?android:attr/buttonStyleSmall"
+                android1:layout_width="wrap_content"
+                android1:layout_height="wrap_content"
+                android1:minWidth="60dp"
+                android1:text="@string/new_game" />
+
+            <Button
+                android1:id="@+id/btn_undo"
+                style="?android:attr/buttonStyleSmall"
+                android1:layout_width="wrap_content"
+                android1:layout_height="wrap_content"
+                android1:minWidth="60dp"
+                android1:text="@string/back" />
+
+            <Button
+                android1:id="@+id/btn_draw"
+                style="?android:attr/buttonStyleSmall"
+                android1:layout_width="wrap_content"
+                android1:layout_height="wrap_content"
+                android1:minWidth="60dp"
+                android1:text="@string/draw" />
+
+            <Button
+                android1:id="@+id/btn_giveup"
+                style="?android:attr/buttonStyleSmall"
+                android1:layout_width="wrap_content"
+                android1:layout_height="wrap_content"
+                android1:minWidth="60dp"
+                android1:text="@string/lost" />
+
+            <Button
+                android1:id="@+id/btn_return"
+                style="?android:attr/buttonStyleSmall"
+                android1:layout_width="wrap_content"
+                android1:layout_height="wrap_content"
+                android1:minWidth="60dp"
+                android1:text="@string/return_main" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android1:layout_width="wrap_content"
+            android1:layout_height="wrap_content"
+            android1:layout_alignParentBottom="true"
+            android1:layout_alignParentLeft="true"
+            android1:layout_alignParentRight="true"
+            android1:layout_alignParentTop="false"
+            android1:layout_below="@+id/btn_grid"
+            android1:orientation="vertical" >
+
+            <TextView
+                android1:id="@+id/text_info"
+                android1:layout_width="match_parent"
+                android1:layout_height="wrap_content"
+                android1:layout_weight="0"
+                android1:gravity="center_vertical"
+                android1:lineSpacingExtra="5dp"
+                android1:lines="1"
+                android1:paddingLeft="5dp"
+                android1:paddingTop="5dp"
+                android1:textAppearance="?android:attr/textAppearanceMedium"
+                android1:textColor="#000000"
+                android1:textSize="10dp"
+                android1:typeface="normal" />
+
+            <TextView
+                android1:id="@+id/text_msg"
+                android1:layout_width="match_parent"
+                android1:layout_height="wrap_content"
+                android1:layout_weight="0.20"
+                android1:paddingLeft="5dp"
+                android1:textAppearance="?android:attr/textAppearanceMedium"
+                android1:textColor="#000"
+                android1:textSize="10dp" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</com.thor.chess.ChessLayout>

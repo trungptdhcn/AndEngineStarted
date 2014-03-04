@@ -1,0 +1,34 @@
+<resources>
+
+    <string name="app_name">Chinese chess</string>
+    <string name="title_activity_chess_main">Chinese chess</string>
+    <string name="ai_game">AIGame</string>
+    <string name="net_game">Online Game</string>
+    <string name="quit">Quit</string>
+    <string name="new_game">New Game</string>
+    <string name="back">Back</string>
+    <string name="over">Over</string>
+    <string name="username">Username</string>
+    <string name="join_host">Join_host</string>
+    <string name="start_game">Start</string>
+    <string name="red_side">Red</string>
+    <string name="black_side">Black</string>
+    <string name="your_color">Your Color</string>
+    <string name="easy">Easy</string>
+    <string name="normal">Normal</string>
+    <string name="hard">Hard</string>
+    <string name="level">Level</string>
+    <string name="draw">Draw</string>
+    <string name="lost">Lost</string>
+    <string name="return_main">Main</string>
+    <string name="empty"></string>
+    <string name="nickname">Nickname</string>
+    <string name="new_host">New Host</string>
+    <string name="discovery">Discovery</string>
+    <string name="menu_sound">Sound</string>
+    <string name="author">thor.qin@gmail.com</string>
+    <string name="menu_no_sound">No Sound</string>
+    <string name="menu_day_mode">Day mode</string>
+    <string name="menu_night_mode">Night Mode</string>
+
+</resources>

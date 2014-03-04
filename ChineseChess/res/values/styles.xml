@@ -1,0 +1,21 @@
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Black.NoTitleBar" >
+    </style>
+    <declare-styleable name="SvgImageView">
+        <attr name="android:src"/> 
+    </declare-styleable>    
+    <declare-styleable name="SvgDrawable">
+        <attr name="android:src"/> 
+        <attr name="android:antialias"/> 
+        <attr name="android:filter"/> 
+        <attr name="android:dither"/> 
+        <attr name="android:gravity"/> 
+    </declare-styleable>    
+
+    <style name="styleName" parent="android:Widget.ListView">
+        <item name="android:background">#c0a0e0</item>
+        <item name="android:choiceMode">singleChoice</item>
+        <item name="android:padding">10dp</item>
+    </style>
+</resources>

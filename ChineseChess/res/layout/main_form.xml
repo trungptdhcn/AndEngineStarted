@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/face" >
+
+    <Button
+        android:id="@+id/btn_ai_game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/face_ttile"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:minWidth="150dp"
+        android:text="@string/ai_game" />
+
+    <ImageView
+        android:id="@+id/face_ttile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/empty"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/chess_tiitle" />
+
+    <Button
+        android:id="@+id/btn_net_game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentTop="false"
+        android:layout_below="@+id/btn_ai_game"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:minWidth="150dp"
+        android:text="@string/net_game" />
+
+    <Button
+        android:id="@+id/btn_exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_net_game"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:minWidth="150dp"
+        android:text="@string/quit" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:autoLink="email"
+        android:height="30dp"
+        android:lines="1"
+        android:linksClickable="true"
+        android:maxLines="1"
+        android:text="@string/author"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColorLink="#ffffff"
+        android:textStyle="italic" />
+
+</RelativeLayout>

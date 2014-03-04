@@ -5,6 +5,17 @@
     <ignored path="Chess.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/a.dummy" changelist="c60c5fd4-a212-4540-8978-e16f9d4a46cd" time="1393913130543" ignored="false" />
+    <file path="E:/Tuyet mat/ChineseChess/src/com/thor/chess/Engine.java" changelist="c60c5fd4-a212-4540-8978-e16f9d4a46cd" time="1393914041972" ignored="false" />
+    <file path="E:/Tuyet mat/ChineseChess/src/com/thor/chess/ChessApplication.java" changelist="c60c5fd4-a212-4540-8978-e16f9d4a46cd" time="1393914041016" ignored="false" />
+    <file path="E:/Tuyet mat/ChineseChess/src/com/thor/chess/NetGameDialog.java" changelist="c60c5fd4-a212-4540-8978-e16f9d4a46cd" time="1393914722837" ignored="false" />
+    <file path="E:/Tuyet mat/ChineseChess/src/com/thor/chess/AIEngine.java" changelist="c60c5fd4-a212-4540-8978-e16f9d4a46cd" time="1393914098096" ignored="false" />
+    <file path="E:/Tuyet mat/ChineseChess/src/com/thor/chess/NetEngine.java" changelist="c60c5fd4-a212-4540-8978-e16f9d4a46cd" time="1393914137325" ignored="false" />
+    <file path="E:/Tuyet mat/ChineseChess/src/com/thor/chess/ChessLayout.java" changelist="c60c5fd4-a212-4540-8978-e16f9d4a46cd" time="1393914202798" ignored="false" />
+    <file path="E:/Tuyet mat/ChineseChess/src/com/thor/chess/ChessView.java" changelist="c60c5fd4-a212-4540-8978-e16f9d4a46cd" time="1393914214315" ignored="false" />
+    <file path="E:/Tuyet mat/ChineseChess/src/com/thor/chess/ChessMain.java" changelist="c60c5fd4-a212-4540-8978-e16f9d4a46cd" time="1393914226365" ignored="false" />
+    <file path="/fragment.java" changelist="c60c5fd4-a212-4540-8978-e16f9d4a46cd" time="1393914242915" ignored="false" />
+    <file path="E:/Tuyet mat/ChineseChess/res/values/strings.xml" changelist="c60c5fd4-a212-4540-8978-e16f9d4a46cd" time="1393914992496" ignored="false" />
+    <file path="/strings.xml" changelist="c60c5fd4-a212-4540-8978-e16f9d4a46cd" time="1393914992496" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +97,7 @@
       <file leaf-file-name="Elephant.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/chess/chinashit/Elephant.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="25" selection-start="2198" selection-end="2200" vertical-scroll-proportion="2.8465116">
+            <state line="56" column="54" selection-start="1767" selection-end="1767" vertical-scroll-proportion="0.63255817">
               <folding />
             </state>
           </provider>
@@ -205,7 +216,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="E:/Tuyet mat/ChineseChess" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="dynamic.classpath" value="false" />
@@ -472,7 +483,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/chess/chinashit/Elephant.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="25" selection-start="2198" selection-end="2200" vertical-scroll-proportion="2.8465116">
+        <state line="56" column="54" selection-start="1767" selection-end="1767" vertical-scroll-proportion="0.63255817">
           <folding />
         </state>
       </provider>
